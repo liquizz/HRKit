@@ -1,0 +1,227 @@
+* {
+        user-select: none;
+     font-family: 'Open Sans', sans-serif;
+    
+      }
+      .content_q{
+        padding: 40px 20px 50px 20px;
+        
+      }
+      /*Cap Div*/
+      
+	  p
+	{
+		font-size: 20px;
+	}
+	
+body{
+    background-color: white;
+}
+      .button-qs {    	
+    		padding: 3px 15px 3px 15px;	
+        margin: 10px 20px 10px 0px;
+      
+    		font-size: 200%;
+    		font-weight: bold;
+    		border: 0;
+    		border-radius: 7px;
+        display: inline-block;
+		transform: translateY(0px);
+		-webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+        transition: 0.3s ease;
+		outline: none;
+      }
+      /* Наведе на кнопки */
+      .button-qs:hover{
+        
+        -webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+        transition: 0.3s ease;
+		transform: translateY(-5px);
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+      }
+      .butn-result:hover{
+        background-color: rgb(26, 191, 85);
+		-webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+		transform: translateY(-5px);
+        transition: 0.3s ease;
+      }
+	  .butn-result:active{
+        background-color: rgb(26, 191, 85);
+		-webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+		box-shadow: none;
+		transform: translateY(-2px);
+        transition: 0.3s ease;
+      }
+      .next-question:hover{
+        
+        background-color: rgb(250, 242, 95);
+      }
+      .btn-prewQuests:hover{
+        background-color: rgb(250, 242, 95);
+		-webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+		transform: translateY(-5px);
+        transition: 0.3s ease;
+      }
+	  .btn-prewQuests:active{
+		-webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+		box-shadow: none;
+		transform: translateY(-2px);
+        transition: 0.1s ease;
+      }
+      .cap-btn:hover{
+        background-color: rgb(26, 191, 85);
+		-webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+		transform: translateY(-5px);
+        transition: 0.3s ease;
+      }
+	  .cap-btn:active{
+        background-color: rgb(26, 191, 85);
+		-webkit-transition: 0.3s ease;
+        -moz-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
+		box-shadow: none;
+		transform: translateY(-2px);
+        transition: 0.1s ease;
+      }
+      .class-for-one-question:hover{
+          background-color: #EFEFEF;
+          border-radius: 7px;
+          border-left: 20px solid #EFEFEF;
+          -webkit-transition: 0.3s ease;
+          -moz-transition: 0.3s ease;
+          -o-transition: 0.3s ease;
+          transition: 0.3s ease;
+          
+      }
+		@media screen and (max-width: 1024px){
+			.button-qs{
+			font-size: 150%;
+			}
+		}
+		@media screen and (max-width: 787px){
+			.button-qs{
+			font-size: 100%;
+			}
+		}
+      .block-headline-questions{
+        max-width: 500px;
+       /* background-color: blue;*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-left:15px !important;
+        height: 100%;
+        
+      }
+      .headline-questions{
+        text-align: center;
+        padding-bottom: 5px;
+        font-weight: bold; 
+        margin-top:10px;
+
+      }
+      .class-for-one-question{
+        /* Костыль */
+        border-left: 20px solid white;
+		 -webkit-transition: 0.3s ease;
+          -moz-transition: 0.3s ease;
+          -o-transition: 0.3s ease;
+          transition: 0.3s ease;
+      }
+    	.questions-1 {
+        width: auto;
+        font-size: 20px;
+		font-weight: normal;
+      }
+      .questions-2 {
+        width: auto;
+		font-size: 20px;
+		font-weight: normal;
+      }
+		.ButtonsTop{
+			height: 150%;
+		}
+		#blocksQuestions{
+			margin-top:20px;
+		/*	margin-left: 20px; */
+			
+    }
+    
+		.btns_in{
+			display: inline-block;
+
+    }
+    .butn-result{
+      
+      background-color: #16c400;
+      color: black;
+	  outline: none;
+    }
+    .next-question{
+      
+      display: block;
+      background-color: #ffe900;
+      color: black;
+	  outline: none;
+    }
+    .btn-prewQuests{
+      display: none;
+      background-color: #ffe900;
+      color: black;
+	  outline: none;
+    }
+    .questions-result{
+      margin-top:100px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      display: none;
+	  color:black;
+	  outline: none;
+    }
+    .string-class-question{
+      margin-top: 4px;
+      margin-bottom: 4px;
+	  font-weight: bold;
+    }
+	
+	
+		/*Стили радиокнопок*/
+		.RadioBtns
+		{
+			vertical-align: top;
+			width: 15px;
+			height: 15px;
+			cursor: pointer;
+		}
+		.labeToRadio{
+			vertical-align: top;
+			cursor: pointer;
+      padding-left:10px;
+	  font-weight: normal;
+		}
+		
+	/*/change*/
+    	.questions-1 > div {
+        padding: 15px 15px 15px 0px;
+      }
+      .questions-2 > div {
+        padding: 15px 15px 15px 0px;
+      }
+      .questions-2 {
+        display: none;
+      }

@@ -1,0 +1,151 @@
+{% load static %}
+<!-- Без изменений кода Алисы-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- !! Перевести на укр ! -->
+<title>HRKit-Розуміння цілей організації</title>
+    
+ <!-- ПОДКЛЮЧЕНИЕ НУЖНОСТЕЙ-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/lcb8rqh.css">
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+ <!--<meta http-equiv="refresh" content="10"> <!---Перезагрузка-->
+  
+  <!-- /Без изменений кода Алисы-->
+  <!-- Подключение стилей и скриптов страницы вопросов -->
+  <link rel="stylesheet" href="{% static 'css/demo2.css' %}">
+     <link rel="stylesheet" href="{% static 'css/logregf.css' %}">
+  <script src="{% static 'js/demo2.js' %}"></script>
+  <!-- Без изменений кода Алисы-->
+<!-- /ПОДКЛЮЧЕНИЕ НУЖНОСТЕЙ-->
+    
+</head>
+
+<body>
+    
+<style type="text/css"> 
+    H1, H2{
+        text-align: center;
+        padding:20px;
+    }
+  </style>
+    <!-- НАВИГАЦИОННАЯ ПАНЕЛЬ -->
+<!-- Панель навигации -->
+<div id="thenavbar" class="navbar navbar-default navbar-fixed-top" >
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="index.php"><img src="{% static 'img/logo_web.png' %}" style=" height:80%"></a> 
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right user-info-main">
+          
+          <li><a href="catalogue.php" >Каталог</a></li>
+          <li><a href="order.php" >Замовити</a></li>
+          <li><a href="blog.php" >Блог</a></li>
+          <li class="user-info main-nav"><a href="authorize.php">Кабінет</a></li>
+            
+        
+      
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+   
+    
+<div class="container">
+
+		
+		
+	   
+	<!-- /НАВИГАЦИОННАЯ ПАНЕЛЬ -->
+		
+		
+	
+	
+	<!-- /Без изменений кода Алисы-->
+	
+	<div class="Main">
+		<div class = "container" >
+			<div class="content_q" >	
+				<!-- Блок - заглушка -->
+				
+				<div class="main-content">
+					<div class="questions-1" id="blocksQuestions">
+						<div class="block-headline-questions">
+							<h3 class="headline-questions">Понимание целей организации</h3>
+                            <h5>Ответьте на предложенные вопросы, выбирая один из кружков с цифрой: от +3 (Вы полностью согласны с приведенным утверждением) до -3 (полностью не согласны).</h5>
+						</div>
+						<div class="question-1 class-for-one-question"></div>
+						<hr> <!--Вертикальная линия-->
+						<div class="question-2 class-for-one-question"></div>
+						<hr>
+						<div class="question-3 class-for-one-question"></div>
+						<hr>
+						<div class="question-4 class-for-one-question"></div>
+						<hr>
+						<div class="question-5 class-for-one-question"></div>
+                        <hr>
+                        <div class="question-6 class-for-one-question"></div>
+						<hr>
+						<div class="question-7 class-for-one-question"></div>
+						<hr>
+						<div class="question-8 class-for-one-question"></div>
+					</div>
+					
+						
+						
+				
+					
+					<button type="button" class="button-qs butn-result">Результат</button>
+					<!--Блок результатов-->
+					<div class="questions-result">
+
+						<p>Ваш результат: 
+							<span class="q-res-deg-of-moti">Ошибка! Пожалуйста обратитесь к администратору.</span>
+                            
+						</p>
+                        <p>Обработка: <br>
+							<span class="tract">Ошибка! Пожалуйста обратитесь к администратору.</span>
+						</p>
+						
+					</div>
+				</div>	
+			</div>
+		
+		</div>
+		
+		
+		
+	</div>
+	
+	
+	<!-- Без изменений кода Алисы-->
+	
+	
+	<div class="Footer">
+
+	</div>
+</div>
+
+<!-- /КОНТЕЙНЕР СО СЛАЙДАМИ -->
+<!-- СКРИПТЫ -->
+    <script src="{% static 'js/onlog.js' %}"></script>
+	<script src="{% static 'js/onreg.js' %}"></script>
+	<script src="{% static 'js/logregf.js' %}"></script>
+
+</body>
+</html>
+
+<!-- /Без изменений кода Алисы-->

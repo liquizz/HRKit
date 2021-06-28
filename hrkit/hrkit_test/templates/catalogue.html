@@ -1,0 +1,151 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang=ru>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- шрифт-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="{% static 'lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/catalogue.css' %}" rel="stylesheet"> <!--Стиль каталога-->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet"> <!--Стиль общий-->
+    <link rel="stylesheet" href="{% static 'css/logregf.css' %}"> <!--Стиль формы логина и регистрации-->
+    
+  </head>
+  
+  <body>
+
+    <div class="menu">
+      
+      <!-- Иконка закрытия меню с категориями -->
+      
+        <img class="icon-close" src="{% static 'img/close_btn.png' %}">
+      
+      <!-- Меню -->
+      <ul class="list-group wizard-menu">
+        <li ><a href="#" class="list-group-item " data-for=".step-1">ОЦІНКА ПРОФЕСІЙНИХ КОМПЕТЕНЦІЙ</a></li>
+        <li><a href="#"  class="list-group-item step-2-menu" data-for=".step-2">МОТИВАЦІЯ СПІВРОБІТНИКІВ</a></li>
+        <li><a href="#"  class="list-group-item step-3-menu" data-for=".step-3">КАЛЬКУЛЯТОРИ</a></li>
+        
+      </ul>
+    </div>
+
+    <!-- Main  -->
+    <div class="background">
+      <div id="thenavbar" class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+
+           <div class="navbar-header">
+        
+          
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          
+          <img  class="icon-menu navbar-toggle" src="{% static 'css/sh16.png' %}"  >
+        
+          </div>
+      <div class="navbar-collapse collapse">
+
+        
+          <img id='h-s-btn' class="icon-menu"src="{% static 'css/sh.png' %}">
+           <ul class="nav navbar-nav navbar-right user-info-main">
+          
+          <li><a href="index.php" >Головна</a></li>
+          <li><a href="order.php" >Замовити</a></li>
+          <li><a href="blog.php" >Блог</a></li>
+          <li><a href="authorize.php">Кабінет</a></li>
+      
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+    </div>
+
+      <!-- /Панель навигации -->
+
+
+   
+      
+        
+        <div class="col-md-8">
+        <div class="wizard-content" style="margin-left:5%;">ОБЕРІТЬ КАТЕГОРІЮ З КАТАЛОГУ
+          </div>
+            <div class="back-c" style="margin-left:5%;">
+          </div>
+         <div class="hide">
+                    
+                <div class="step-1" >
+                    <div class="row" style="overflow-y: auto; position:fixed; max-height:100%; height:100%" >
+                        <div class="col-md-6 col-sm-6" style="padding-bottom:15px; margin:5%; ">
+                            
+                            
+                                <div class="form-group">
+                                  <h2>Оцінка професійних компетенцій CSM (Customer Support Manager)</h2>
+                                    
+                                     <p>Дана методика містить перелік вимог для посади Customer Support Manager по рівнях (Trainee, Junior, Middle, Senior), дозволяє визначити рівень співробітника та сформувати рекомендації та цілі для подальшого розвитку. </p>
+                                   
+                                   <a href="downloadfile.php?filename=CSM_LVL2.xlsx"> <button type="button" class="btn btn-primary dl"  >Завантажити</button> </a>
+                                </div>
+                              
+
+                        </div>
+                    </div>
+                </div>
+             
+                 <div class="step-2" >
+                    <div class="row" style="overflow-y: auto; position:fixed; max-height:100%; height:100%" >
+                        <div class="col-md-6 col-sm-6" style="padding-bottom:10%; margin:5%; ">
+                            
+                            
+                                <div class="form-group">
+                                      <h2>Методика оцінки ступеню мотивації та мотиваційного потенціалу</h2>
+                                    
+                                      <p>На основі цієї методики можна зробити висновки про мотивованість співробітника та про те, як можна його мотивувати. </p>
+                                       <a href="downloadfile.php?filename=SM_MP.xlsx"> <button type="button" class="btn btn-primary dl"  >Завантажити</button></a>
+                                   
+                                </div>
+                                
+                              
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="step-3" >
+                    <div class="row" style="overflow-y: auto; position:fixed; max-height:100%; height:100%" >
+                        <div class="col-md-6 col-sm-6" style="padding-bottom:10%; margin-left:5%; ">
+                            
+                            
+                                <div class="form-group">
+                                      <h2>Колективний калькулятор</h2>
+                                    
+                                      <p>TO BE DONE описание </p>
+                                       <a href="downloadfile.php?filename=COLL_CALC.xlsx"> <button type="button" class="btn btn-primary dl"  >Завантажити</button></a>
+                                   
+                                </div>
+                                
+                              
+                        </div>
+                    </div>
+                </div>
+          </div>
+
+         
+          </div>
+      </div>  <!--hide-->  
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="{% static 'js/catalogue.js' %}"></script>
+  <script src="{% static 'js/cat-test.js' %}"></script>
+  <script src="{% static 'js/onlog.js' %}"></script>
+  <script src="{% static 'js/onreg.js' %}"></script>
+  <script src="{% static 'js/logregf.js' %}"></script> 
+  <script src="{% static 'lib/bootstrap/js/bootstrap.min.js' %}"></script>
+      
+  </body>
+</html>

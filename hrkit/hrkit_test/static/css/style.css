@@ -1,0 +1,275 @@
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 16px;
+  color: black;
+ 
+  margin-top: 70px;
+}
+
+/* заголовки */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: black;
+}
+
+/*текст */
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.mt {
+  margin-top: 40px;
+}
+
+/* ссыли */
+
+a {
+  
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+
+
+/* изменения бутстрап компонентов */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+    z-index: 4;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #ffffff;
+  background-color: #26A3E4;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.btn-info{
+ background-color:  #26A3E4;
+}
+
+.navbar-brand {
+  font-size: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.btn-theme {
+  color: #ffffff;
+  background-color: #26A3E4;
+  border-color: transparent;
+}
+
+.btn {
+  padding: 10px 30px;
+  margin-bottom: 0;
+  font-size: 18px;
+  border: 5px solid transparent;
+  border-radius: 0px;
+}
+
+
+/* ph-and-main-info */
+
+#ph-and-main-info {
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+background-image: url(back-main.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+     
+}
+
+#ph-and-main-info h1 {
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #26A3E4;
+  
+  
+}
+
+#ph-and-main-info h2 {
+  color: black;
+  font-weight: 400;
+}
+
+/* info-block */
+
+#info-block {
+  background-color: #26A3E4;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+
+#info-block h3 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+#info-block p {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#info-block .col-lg-5, .col-lg-7
+{
+    float:none ;
+    width:auto;
+}
+
+
+/* центр блок*/
+
+#center-block {
+  padding: 40px 0;
+}
+
+#center-block i {
+  font-size: 50px;
+  color: #26A3E4;
+}
+
+#center-block .col-md-3:hover {
+  background-color: #f5f5f5;
+}
+
+#center-block .col-md-3 {
+  padding: 30px;
+}
+
+
+/* демо */
+
+.desc1, .desc2{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(0,0,0, 0.7);
+    padding-top:30px;
+    margin 0;
+    
+    display:none;
+    
+}
+.desc1 h2{
+    color:white;
+}
+.desc2 h2{
+    color:white;
+}
+ .col-lg-4:hover .desc1{
+    display:block;
+}
+.col-lg-4:hover .desc2{
+    display:block;
+}
+
+/* футер */
+
+#f {
+  padding-top: 20px;
+  background-color: #26A3E4;
+}
+
+#f p {
+  color: white;
+  text-align: right;
+  font-weight: 400;
+}
+
+/* контактная форма */
+
+.contact-form {
+  padding-bottom: 40px;
+}
+
+.contact-form label {
+   color: #999;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px 12px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  height: auto;
+}
+
+.contact-form .form-send {
+  text-align: center;
+}
+
+.contact-form .form-send button  {
+  background: #26A3E4;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* Copyrights */
+
+#copyrights {
+  background: #222222;
+  padding: 20px 0;
+  text-align: center;
+  width:100%;
+}
+
+#copyrights p {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+#copyrights a {
+  color: #26A3E4;
+}
+
+.hidden{
+    display:none;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:black;
+}
+
+.row centered mt grid{
+  
+}
